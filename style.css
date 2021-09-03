@@ -143,21 +143,32 @@ nav a:focus {
   color: #ffffff;
 }
 /*      ----------- section3------------------------ */
-  
-.col3  p, h4, h5 {
+
+.col3 p,
+h4,
+h5 {
   text-align: center;
   font-family: "Ubuntu", sans-serif;
 }
+.col3 h4 {
+  line-height: 0.3;
+}
+.col3 p {
+  color: #888888;
+}
 .col3 {
   padding-top: 3%;
+  padding-bottom: 3%;
 }
-.cole3 { 
+.cole3 {
   max-height: 450px;
-  width: 780px;
-  padding-top: 5%;
-  padding-bottom: 5%;margin: auto;
+  width: 950px;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  margin: auto;
 }
-.column3, .columnes3 {
+.column3,
+.columnes3 {
   display: flex;
   text-align: center;
   font-size: 14px;
@@ -165,16 +176,42 @@ nav a:focus {
 .columne3 {
   margin-top: 10%;
 }
-hr {
-  width: 70px;
+.col3 hr {
+  width: 80px;
+}
+.column3m,
+.column3d,
+.column3n {
+  background-color: white;
+  border-bottom: solid 1px #d6d2d2;
+}
+.column3n {
+  border-right: solid 1px #d6d2d2;
+  border-left: solid 1px #d6d2d2;
+}
+.column3t {
+  border-right: solid 1px #d6d2d2;
+  border-left: solid 1px #d6d2d2;
+}
+.column3r img,
+.column3t img,
+.column3s img {
+  margin-top: 20px;
+}
+.column3n img {
+  margin-top: 10px;
+}
+.column3s p,
+.column3t p,
+.column3r p,
+.column3m p,
+.column3d p,
+.column3n p {
+  text-align: center;
+  margin-inline: 20px 20px;
+  color: #888888;
 }
 
-#col3 {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  
-}
 /*-------------------section4------------------------------*/
 .col4 {
   background-image: url(img/bgk-header.png);
@@ -186,58 +223,69 @@ hr {
   align-items: center;
 }
 /*-------------------section5------------------------------*/
-.column5 {
+.col5 {
   display: flex;
   padding: 0 15% 0 15%;
+  margin: 40px 0 40px 0;
 }
-.column5b {    
-  width: 120%;   
+.column5b {
+  width: 120%;
 }
 .column5b img {
-  width: 80% ;
+  width: 80%;
   height: 80%;
 }
 .column5c {
-  width: 60%;
+  width: 70%;
 }
-.figure1, .figure2, .figure3, .figure4, .figure5 {
+.column5c h4 {
+  text-align: start;
+}
+
+.figure1,
+.figure2,
+.figure3,
+.figure4,
+.figure5 {
   display: flex;
-  justify-content: center; 
-  align-items: center; 
-  margin-right: 30px;
+  justify-content: center;
 }
 #b {
-  width: 25% ;
-  height: 30%;  
+  width: 25%;
+  height: 30%;
 }
-.form-inner input, .form-inner textarea {
+.form-inner input,
+.form-inner textarea {
   width: 100%;
   line-height: 32px;
-  font-family: 'Roboto', sans-serif;   
+  font-family: "Roboto", sans-serif;
 }
+
 #submit {
-  width: 30%; 
+  width: 30%;
   height: 5%;
-  color:#00ced1;
-  border-color: #00ced1;
-  background-color: #ffffff;
+  color: #00ced1;
+  border: solid 1px #00ced1;
+  background-color: transparent;
   font-size: 13px;
 }
-#a {
-  margin-left: 160px;
+
+#am h4 {
+  text-align: start;
+  margin-inline-start: 130px;
 }
 
 /* ----------------------------FOOTER------------------------- */
 
 .footer {
- font-size: 13px;
-justify-content: center;
-background-image: url(img/bgk-footer.png) ;
-color: #ffffff;
-height: 350px;
- justify-content: space-around;
- padding: 5% 15% 0 15%;
- font-family: "Ubuntu", sans-serif;
+  font-size: 13px;
+  justify-content: center;
+  background-image: url(img/bgk-footer.png);
+  color: #ffffff;
+  height: 350px;
+  justify-content: space-around;
+  padding: 5% 15% 0 15%;
+  font-family: "Ubuntu", sans-serif;
 }
 #footer {
   display: flex;
@@ -245,9 +293,8 @@ height: 350px;
 .footer1 {
   justify-content: space-between;
   display: flex;
-  
 }
-   #foot2c {
+#foot2c {
   display: flex;
   justify-content: space-around;
 }
@@ -265,38 +312,36 @@ p .footer1a {
   justify-content: space-around;
   display: flex;
 }
-.footer1a, .footer2b {
-  display: flex; 
+.footer1a,
+.footer2b {
+  display: flex;
 }
 .footer2c {
- 
   display: inline-block;
- justify-content: center;
+  justify-content: center;
 }
 
 .fin1 input {
   background-color: transparent;
-  font-size: 14px; 
- border-color: #ffffff;;
+  font-size: 14px;
+  border-color: #ffffff;
   height: 30px;
-
 }
 #tajam {
   font-size: 20px;
-text-align: end;
-color: #368181;
+  text-align: end;
+  color: #368181;
 }
-.fin2 { 
-background-color: rgba(200, 200, 200, 0.9);
-
-margin: 15px 15px 0px 15px ;
-flex-grow: 3;
+.fin2 {
+  background-color: rgba(200, 200, 200, 0.9);
+  margin: 15px 15px 0px 15px;
+  flex-grow: 3;
 }
 .foot23 {
- display: flex;
- justify-content: end;
- padding-top: 10%;
- flex-shrink: 20;
+  display: flex;
+  justify-content: end;
+  padding-top: 10%;
+  flex-shrink: 20;
 }
 .footer1c {
   padding-left: 5%;
@@ -305,7 +350,3 @@ flex-grow: 3;
 #footer1c {
   text-align: start;
 }
-© 2021 GitHub, Inc.
-Terms
-Privacy
-S
