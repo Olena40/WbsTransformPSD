@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
- 
 }
 
 body {
@@ -61,7 +60,7 @@ nav a {
   text-decoration: none;
   color: #00e0d0;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.8rem;
   padding: 0.25em 0;
 }
 nav a:hover,
@@ -219,13 +218,65 @@ h5 {
 /*-------------------section4------------------------------*/
 .col4 {
   background-image: url(img/bgk-header.png);
-  height: 500px;
+  height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+.col4 hr {
+  width: 50px;
+}
+.col4-header {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+}
+.col4-main1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5rem;
+}
+.col4-main1 div {
+  height: 190px;
+  width: 160px;
+  margin-left: 1.5em;
+  background-color: #ffffff;
+}
+.col4-main2 {
+  display: flex;
+  flex-direction: row;
+}
+.col4-main2 div {
+  border: 1px solid #ffffff;
+  margin-left: 1.5em;
+  color: #ffffff;
+  text-align: center;
+  height: 75px;
+  width: 160px;
+}
+.col4-main2 h4 {
+  font-size: 0.75rem;
+}
+.col4-main2 p {
+  font-size: 0.5rem;
+}
+
+.col4-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1.5em;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+}
+
 /*-------------------section5------------------------------*/
 .col5 {
   display: flex;
@@ -383,6 +434,13 @@ footer3 {
 #fig {
   margin-top: 40px;
 }
+
+@media only screen and (max-width: 1024px) {
+  nav a {
+    font-size: 1rem;
+  }
+}
+
 .footer11, .footer12, .footer13 {
   margin-inline-start: 35px;
 }
