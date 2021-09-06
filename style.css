@@ -12,6 +12,9 @@ body {
 /* ----------------------------------------------------- */
 
 /* ----------------------HEADER----------------------------- */
+
+
+
 .h-container {
   background-image: url(img/bgk-header.png);
   height: 600px;
@@ -100,6 +103,7 @@ nav a:focus {
 .col1 {
   display: flex;
   height: 350px;
+ 
 }
 .div-1 {
   display: flex;
@@ -320,6 +324,7 @@ h5 {
 }
 footer1 {
   margin-left: 100px;
+ 
 }
 .footer2,
 .footer3 {
@@ -378,3 +383,10 @@ footer3 {
 #fig {
   margin-top: 40px;
 }
+.footer11, .footer12, .footer13 {
+  margin-inline-start: 35px;
+}
+.footer31, .footer32, .footer33 {
+  margin-inline-start: 30px;
+}
+
