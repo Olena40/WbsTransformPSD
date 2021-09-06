@@ -226,11 +226,10 @@ h5 {
 .col5 {
   display: flex;
   padding: 0 15% 0 15%;
-  margin: 30px 0 30px 0;
+  margin: 40px 0 45px 0;
 }
 .column5b {
   width: 120%;
-  margin-top: -30px;
 }
 .column5b img {
   width: 80%;
@@ -242,7 +241,6 @@ h5 {
 .column5c h4 {
   text-align: start;
 }
-
 .figure1,
 .figure2,
 .figure3,
@@ -250,7 +248,7 @@ h5 {
 .figure5 {
   display: flex;
   justify-content: center;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 #b {
   width: 25%;
@@ -258,7 +256,7 @@ h5 {
 }
 #luk {
   width: 20%;
-  height: 15%;
+  height: 25%;
 }
 .form-inner input,
 .form-inner textarea {
@@ -266,7 +264,6 @@ h5 {
   line-height: 32px;
   font-family: "Roboto", sans-serif;
 }
-
 #submit {
   width: 30%;
   height: 5%;
@@ -275,7 +272,6 @@ h5 {
   background-color: transparent;
   font-size: 13px;
 }
-
 #am h4 {
   text-align: start;
   margin-inline-start: 130px;
